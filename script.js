@@ -1,5 +1,5 @@
 /* Ganti URL ini setelah Apps Script di-deploy. */
-const API_URL = 'https://script.google.com/macros/s/[ID_ANDA]/exec';
+const API_URL = 'https://script.google.com/macros/s/AKfycbwlJ1VwMCraKD6HTIxmbnEHoE0zM72d8BliYbooxYwdzX7l2rpL1sJnw3qzb0NVrj2owA/exec';
 const TF=(()=>{
 const state={token:null,user:null,view:'dashboard',cache:{},pageCache:{},sort:{},mushafPage:1};
 const menus=[['dashboard','▦','Dashboard'],['setoran','◫','Setoran'],['presensi','◉','Presensi'],['santri','♙','Data Siswa'],['kelas','▤','Data Kelas'],['statistik','◌','Statistik'],['rekap','▣','Rekap & Rapor'],['mushaf','۞','Mushaf Digital'],['users','♟','Pengguna']];

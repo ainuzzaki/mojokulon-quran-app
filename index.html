@@ -6,11 +6,12 @@
   <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Amiri+Quran&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
   <script src="https://cdn.jsdelivr.net/npm/xlsx@0.18.5/dist/xlsx.full.min.js"></script><link rel="stylesheet" href="style.css">
+  <style>.tf-side-footer{margin-top:auto;padding:17px;opacity:.86;text-align:center;line-height:1.55;white-space:normal}.tf-side-footer span{display:block;color:#f4d58d;font:clamp(13px,1vw,15px) 'Amiri Quran',serif;margin-bottom:7px}.tf-side-footer p{margin:0;font-size:clamp(9px,.72vw,11px);letter-spacing:.01em}</style>
 </head>
 <body>
   <div id="tf-login" class="tf-login"><main class="tf-login-card"><div class="tf-login-arch"></div><div class="tf-logo">☪</div><p class="tf-arabic-title">بِسْمِ اللّٰهِ الرَّحْمٰنِ الرَّحِيْمِ</p><p class="tf-kicker">Mojokulon Islamic Center</p><h1>SMP Islam Mojokulon</h1><p class="tf-muted">Masuk ke Mojokulon Quran App</p><label>Username<input id="tf-login-username" autocomplete="username" placeholder="Masukkan username"></label><label>Password<input id="tf-login-password" type="password" autocomplete="current-password" placeholder="Masukkan password"></label><button id="tf-login-btn" class="tf-btn tf-wide" onclick="TF.login()">Masuk</button><p id="tf-login-error" class="tf-error"></p></main></div>
   <div id="tahfiz-app" class="tf-app tf-hide">
-    <aside id="tf-sidebar" class="tf-sidebar"><div class="tf-side-head"><div class="tf-logo small">☪</div><div><b>SMP Islam Mojokulon</b><small>Mojokulon Quran App</small></div></div><nav id="tf-menu"></nav><div class="tf-side-footer"><span>بِسْمِ اللّٰهِ الرَّحْمٰنِ الرَّحِيْمِ</span>© 2026 Mojokulon Islamic Center</div></aside>
+    <aside id="tf-sidebar" class="tf-sidebar"><div class="tf-side-head"><div class="tf-logo small">☪</div><div><b>SMP Islam Mojokulon</b><small>Mojokulon Quran App</small></div></div><nav id="tf-menu"></nav><footer class="tf-side-footer"><span>بِسْمِ اللّٰهِ الرَّحْمٰنِ الرَّحِيْمِ</span><p>© 2026 - Dikembangkan Oleh<br>Abdal Ainuz Zaki, B.A.</p></footer></aside>
     <section class="tf-right-col"><header id="tf-topbar" class="tf-topbar"><button class="tf-icon" onclick="TF.toggleSidebar()">☰</button><div class="tf-user"><b id="tf-user-name"></b><small id="tf-user-role"></small></div><button class="tf-btn tf-btn-outline" onclick="TF.logout()">Keluar</button></header><main id="tf-content" class="tf-content"></main></section>
   </div>
   <div id="tf-modal-root"></div><div id="tf-toast"></div><script src="script.js"></script>
